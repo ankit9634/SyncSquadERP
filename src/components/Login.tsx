@@ -156,6 +156,7 @@ const Login = ({ onLogin }: { onLogin: (role: string) => void }) => {
             <div className="flex items-center gap-3">
               <div className="w-2 h-2 rounded-full bg-warning animate-pulse" />
               <p className="text-muted-foreground">AI-Powered Analytics & Predictions</p>
+                 </div>
               <div className="flex items-center gap-3">
               <div className="w-2 h-2 rounded-full bg-info animate-pulse" />
               <p className="text-muted-foreground">DEMO LOGIN CREDENTIALS</p>
@@ -165,7 +166,7 @@ const Login = ({ onLogin }: { onLogin: (role: string) => void }) => {
               <p className="text-muted-foreground">Email : demo1@demo.com</p>
               <p className="text-muted-foreground">password : 123456</p>
             </div>
-            </div>
+         
           </div>
         </div>
 
